@@ -11,6 +11,11 @@ dependencies:
 - python=3.6.2
 
 - pip:
+    # Required packages for AzureML execution, history, and data preparation.
   - azureml-defaults
+
+  - azureml-monitoring
 - numpy
 - scikit-learn
+channels:
+- conda-forge
